@@ -24,7 +24,7 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
-    height: 500px;
+    height: 550px;
 }
 .bottom-cards {
     overflow: hidden;
@@ -195,4 +195,7 @@ a{
     margin-right:0;
     font-weight:600
   }
+}
+.top-link a:hover{
+  text-decoration: none;
 }
