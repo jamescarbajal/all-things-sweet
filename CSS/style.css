@@ -31,8 +31,10 @@ a{
 .navbar-nav a:hover::after{
   width: 100%;
 }
-@media screen {
-  
+@media (max-width: 991px){
+  .navbar-nav a:hover::after{
+    width: 80px;
+  }
 }
 .hero-section {
     background-image: url(https://via.placeholder.com/1800x1200);
