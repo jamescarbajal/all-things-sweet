@@ -37,9 +37,10 @@ a{
   }
 }
 
-.placeholder{
+.holder{
   height: 300px;
   margin-top: 117px;
+  text-align: center;
 }
 
 .site-footer
