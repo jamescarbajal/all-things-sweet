@@ -37,10 +37,9 @@ a{
   }
 }
 
-.holder{
-  height: 300px;
-  margin-top: 117px;
-  text-align: center;
+.page-title{
+  height: 30vh;
+  padding: 0;
 }
 
 .site-footer
