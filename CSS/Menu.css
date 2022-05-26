@@ -1,3 +1,8 @@
 .page-title{
-    height: 200px;
+    height: 300px
+}
+@media (min-width: 1400px){
+    .menu-img img{
+        width: 1200px;
+    }
 }
