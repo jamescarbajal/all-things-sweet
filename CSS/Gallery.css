@@ -1,0 +1,41 @@
+.gallery {
+    min-height: 100vh;
+    background-color:whitesmoke;
+    padding: 100px 0;
+}
+.gallery-container {
+    max-width: 1170px;
+    margin: auto;
+}
+.gallery .gallery-filter {
+    padding: 0 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.filter-item {
+    margin: 4px;
+    color: #fff;
+    background-color:black;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 8px 20px 8px 20px;
+    display: inline-block;
+    cursor: default;
+    text-transform: uppercase;
+    line-height: 1.2;
+    transition: all 0.3s ease;
+}
+.filter-item.active {
+    color: black;
+    border-color: black;
+    background: aqua;
+}
+.filter-item:hover {
+    color: aqua;
+    background:black;
+    border-color: aqua;
+    z-index: 10;
+    transform: translate(0, -20%);
+}
