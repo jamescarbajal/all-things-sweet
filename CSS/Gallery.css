@@ -1,5 +1,5 @@
 .gallery {
-    min-height: 100vh;
+    min-height: auto;
     background-color:whitesmoke;
     padding: 100px 0;
     margin: 0;
@@ -8,6 +8,7 @@
     padding: 50px 0;
     margin: auto;
 }
+/* Gallery filter buttons - let's you hide all images except those in selected category */
 .gallery .gallery-filter {
     padding: 0 15px;
     width: 100%;
@@ -40,3 +41,37 @@
     z-index: 10;
     transform: translate(0, -20%);
 }
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+    position: relative;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  .gallery-item {
+      z-index: 1;
+  }
+  .gallery-item .gallery-item-inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color:honeydew;
+    box-shadow: 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+  }
