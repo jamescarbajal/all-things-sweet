@@ -71,7 +71,7 @@
     align-items: center;
   }
   /* The overlay effect - lays on top of the container and over the image */
-.gallery-item-inner .overlay {
+.gallery-item .overlay {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -89,7 +89,7 @@
   }
   
   /* When you mouse over the container, fade in the overlay title */
-  .gallery-item:hover .overlay {
+  .gallery-item-inner:hover .overlay {
     opacity: 1;
     transition: 350ms ease-in-out;
   }
