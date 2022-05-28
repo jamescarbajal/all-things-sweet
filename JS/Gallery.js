@@ -1,7 +1,7 @@
 // Filter Items
 const filterContainer = document.querySelector(".gallery-filter");
 const galleryItems = document.querySelectorAll(".gallery-item");
-const galleryCont = document.querySelectorAll("gallery-container");
+const galleryCont = document.querySelectorAll(".gallery-container");
 
 filterContainer.addEventListener("click", (event) =>{
     if(event.target.classList.contains("filter-item")){
@@ -27,19 +27,13 @@ filterContainer.addEventListener("click", (event) =>{
         }
  
          });
-        
-        galleryCont.forEach((cont) =>{
-        
-        if(cont.childNodes.length === 0) {
-            cont.classList.remove("show");
-            cont.classList.add("hide");
-        }
-        
-        else{
-            cont.classList.remove("hide");
-            cont.classList.add("show");
-        }
-
-         });
     }
+            
+    galleryCont.forEach((cont) =>{
+
+    let hideParent = 0;
+    
+        
+    });
+
   });

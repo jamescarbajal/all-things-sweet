@@ -42,6 +42,7 @@
     margin: auto;
     max-width: 25%;
     z-index: 1;
+    justify-content: start;
 }
 @media (max-width:1350px) {
     .gallery-container {
@@ -53,7 +54,7 @@
         max-width: 100%;
     }
 }
-  .gallery .gallery-item.show, .gallery-container.show{
+  .gallery .gallery-item.show, .gallery .gallery-container.show{
 	animation: fadeIn 0.5s ease;
 }
 @keyframes fadeIn{
@@ -64,9 +65,10 @@
 		opacity: 1;
 	}
 }
-.gallery .gallery-item.hide, .gallery-container.hide {
+.gallery .gallery-item.hide, .gallery .gallery-container.hide {
     animation: fadeOut 0.5s ease;
     display: none;
+    flex: 0;
 }
   .gallery-item .gallery-item-inner{
     position:relative;
