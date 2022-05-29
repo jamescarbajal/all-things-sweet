@@ -26,14 +26,28 @@ filterContainer.addEventListener("click", (event) =>{
             item.classList.add("hide");
         }
  
-         });
+        });
     }
-            
-    galleryCont.forEach((cont) =>{
 
-    let hideParent = 0;
     
-        
-    });
+    galleryCont.forEach((container) =>{
+        let num = 0;
+        container.children.forEach((child) =>{
+            if(child.style.display !== "none"){
+                breaker;
+            }
+            else{
+                num++;
+            }
+            return m;
+        })
+        if(m = 0){
+            container.classList.add("hide");
+        }
+        else{ 
+            breaker;
+        }
 
-  });
+    })
+
+});
