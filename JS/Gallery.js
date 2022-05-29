@@ -29,25 +29,19 @@ filterContainer.addEventListener("click", (event) =>{
         });
     }
 
-    
-    galleryCont.forEach((container) =>{
-        let num = 0;
-        container.children.forEach((child) =>{
-            if(child.style.display !== "none"){
-                breaker;
+    function checkDiv() {
+        const childDivs = (container.children);
+        for(i = 0, i < (container.children), i++)
+        {
+            let num = 0;
+            const x = document.getElementById("myDIV");
+            if (window.getComputedStyle(x).display === "none") {
+                let num = (num + 1);
             }
             else{
-                num++;
+                num = (num + 0);
             }
-            return m;
-        })
-        if(m = 0){
-            container.classList.add("hide");
         }
-        else{ 
-            breaker;
-        }
-
-    })
+    }
 
 });
