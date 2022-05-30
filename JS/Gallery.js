@@ -29,19 +29,4 @@ filterContainer.addEventListener("click", (event) =>{
         });
     }
 
-    function checkDiv() {
-        const childDivs = (container.children);
-        for(i = 0, i < (container.children), i++)
-        {
-            let num = 0;
-            const x = document.getElementById("myDIV");
-            if (window.getComputedStyle(x).display === "none") {
-                let num = (num + 1);
-            }
-            else{
-                num = (num + 0);
-            }
-        }
-    }
-
 });
