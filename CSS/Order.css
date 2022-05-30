@@ -15,10 +15,10 @@
     .fb-timeline {
         padding:0;
         min-width: 100%;
-        width: 100%;
+        width: 90%;
     }
     .fb-page{
-        min-width: 100%;
+        min-width: 90%;
         /* max-width: 500px; */
     }
 }
