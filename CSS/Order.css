@@ -12,6 +12,7 @@
     padding: 10px;
     overflow: hidden;
     min-width: 180px;
+    width: 100%;
 }
 .fb-page{
     min-width: 180px;
