@@ -3,6 +3,10 @@
     padding: 0;
     /* border: 2px solid black; */
 }
+.form-container {
+    min-width: 400px;
+    max-width: 700px;
+}
 .fb-timeline{
     height: 55vh;
     padding: 10px;
