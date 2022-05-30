@@ -7,18 +7,20 @@
     height: 55vh;
     padding: 0;
     overflow: hidden;
+    max-width: 500px;
 }
 /* .fb-page{
     max-width: 70%;
 } */
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .fb-timeline {
         padding:0;
-        min-width: 90%;
-        width: 90%;
+        min-width: 95%;
+        width: 95%;
     }
     .fb-page{
-        min-width: 100%;
+        min-width: 180px;
+        width: 100%;
         /* max-width: 500px; */
     }
 }
