@@ -1,14 +1,24 @@
 * {
     margin: 0;
     padding: 0;
-    /* border: 2px solid black; */
+    border: 2px solid black;
 }
 .fb-timeline{
-    min-width: 30%;
     height: 55vh;
     padding: 0;
     overflow: hidden;
 }
 .fb-page{
-    max-width: 65%;
+    max-width: 70%;
+}
+@media (max-width: 700px) {
+    .fb-timeline {
+        padding:0;
+        width: 100%;
+        max-width: 500px;
+    }
+    .fb-page{
+        width: 100%;
+        max-width: 500px;
+    }
 }
