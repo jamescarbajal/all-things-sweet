@@ -12,10 +12,14 @@
     padding: 10px;
     overflow: hidden;
     min-width: 180px;
-    width: 100%;
 }
 .fb-page{
     min-width: 180px;
     width: 100%;
     max-width: 500px;
+}
+@media screen(min-width:500px) {
+    .fb-timeline {
+        width:100%;
+    }    
 }
