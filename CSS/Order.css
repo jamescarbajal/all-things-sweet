@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.fb-timeline{
+    max-width: 100%;
+    height: 50vh;
+    padding: 0;
+}
+#fb-messenger{
+    margin-bottom: 75px;
+}
