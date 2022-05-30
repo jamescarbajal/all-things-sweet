@@ -8,17 +8,22 @@
     padding: 0;
     overflow: hidden;
 }
-.fb-page{
+/* .fb-page{
     max-width: 70%;
-}
+} */
 @media (max-width: 700px) {
     .fb-timeline {
         padding:0;
+        min-width: 100%;
         width: 100%;
-        max-width: 500px;
     }
     .fb-page{
-        width: 100%;
-        max-width: 500px;
+        min-width: 100%;
+        /* max-width: 500px; */
+    }
+}
+@media (max-width: 1500px) {
+    .fb-page {
+        max-width: 70%;
     }
 }
