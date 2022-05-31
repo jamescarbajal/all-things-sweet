@@ -20,8 +20,8 @@
 }
 @media (min-width:500px) {
     .fb-page {
-        min-width: 90%;
-        /* width:90%; */
+        min-width: 50%;
+        width:90%;
         max-width: 500px;
     }
 }
