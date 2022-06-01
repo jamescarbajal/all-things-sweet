@@ -15,14 +15,14 @@
     border: 2px solid black;
 }
 .fb-page{
-    min-width: 100%;
+    min-width: 320px;
     width: 100%;
     max-width: 504px;
 }
 @media (min-width:500px) {
     .fb-page {
         border: 2px solid blue;
-        min-width: 180px;
+        min-width: 320px;
         width:100%;
         max-width: 504px;
     }
