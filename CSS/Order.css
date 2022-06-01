@@ -8,7 +8,7 @@
     max-width: 700px;
 }
 .fb-timeline{
-    height: 55vh;
+    min-height: 55vh;
     padding: 10px;
     overflow: hidden;
     min-width: 180px;
@@ -16,6 +16,7 @@
 .fb-page{
     min-width: 320px;
     width: 100%;
+    min-height: 504px;
     max-width: 504px;
 }
 @media (min-width:500px) {
