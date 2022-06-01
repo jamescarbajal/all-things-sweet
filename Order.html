@@ -94,9 +94,9 @@
     <div class="page-title container-fluid d-flex flex-wrap justify-content-center align-items-end mb-4"><h1 class="display-4"><hr>ORDER<hr></h1>
     </div>
 
-    <!-- PAGE BODY -->
+    <!-- FLEX PAGE BODY -->
     <section class="row container-fluid d-flex flex-row justify-content-center bg-light p-5 mb-5">
-      <article class="col-12 my-5">
+      <article class="col-12 mb-5">
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus asperiores voluptatem sed ut eum quasi repellendus optio voluptatum eos libero. Voluptates repellat voluptatem, neque error animi dolore iusto hic officia.
         Natus neque vel officia esse ullam laudantium consequatur veritatis quas mollitia veniam eligendi tempore, fugiat, rerum dolorum ipsum praesentium quam omnis dignissimos? Magnam illo, eveniet autem culpa voluptates ex velit.
         Tempora itaque perspiciatis consequuntur asperiores, incidunt temporibus, quod ipsum facilis accusantium aut non neque error? Eligendi tempora labore fuga, maxime, officia consectetur non, excepturi magni sed laboriosam iure repellat incidunt.
@@ -104,44 +104,64 @@
         Sapiente ratione, hic eaque quis cumque ducimus explicabo enim vitae odio laboriosam, recusandae quos reiciendis dolore ipsa provident, quasi similique totam. Obcaecati veritatis id voluptas provident quod optio corrupti. Molestiae.</p>
       </article>
 
+        <!-- Flex Body Container For Order Form-->
       <div class="col-xl-6 container-fluid d-flex justify-content-center align-items-start my-5">
         <div class="form-container container-fluid align-self-start w-100">
           <h2 class="container-fluid w-100 text-center border border-2">CATERING AND WEDDING CAKE REQUEST FORM</h2>
-          <div class="row g-0 container-fluid w-100">
-            <div class="col-sm w-100">
-              <div class="form-floating">
-                <input type="firstName" class="form-control" id="floatingInputGrid" placeholder="" value="">
-                <label for="floatingInputGrid" class="text-muted">First Name</label>
+
+            <!-- Catering/Wedding Cake Request Form -->
+          <form class="container-fluid">
+            <div class="row g-0 container-fluid w-100">
+              <div class="col-sm w-100">
+                <div class="form-floating">
+                  <input required type="text" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                  <label for="floatingInputGrid" class="text-muted">First Name</label>
+                </div>
+              </div>
+              <div class="col-sm w-100">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                  <label for="floatingInputGrid" class="text-muted">Last Name</label>
+                </div>
               </div>
             </div>
-            <div class="col-sm w-100">
-              <div class="form-floating">
-                <input type="lastName" class="form-control" id="floatingInputGrid" placeholder="" value="">
-                <label for="floatingInputGrid" class="text-muted">Last Name</label>
+            <div class="row g-0 container-fluid w-100">
+              <div class="col-sm w-100">
+                <div class="form-floating">
+                  <input type="tel" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                  <label for="floatingInputGrid" class="text-muted">Phone number</label>
+                </div>
+              </div>
+              <div class="col-sm w-100">
+                <div class="form-floating">
+                  <input required type="lastName" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                  <label for="floatingInputGrid" class="text-muted">Pick-up date</label>
+                </div>
               </div>
             </div>
-          </div>
-            <div class="col-sm w-100">
-              <div class="form-floating">
-                <input type="email" class="form-control" id="floatingInputGrid" placeholder="" value="">
-                <label for="floatingInputGrid" class="text-muted">Email address</label>
+            <div class="row g-0 container-fluid w-100">
+              <div class=" w-100">
+                <div class="form-floating">
+                  <input required type="email" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                  <label for="floatingInputGrid" class="text-muted">Email address</label>
+                </div>
+              </div>
+              <div class="w-100">
+                <div class="form-floating">
+                  <select required class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                    <option selected>Select reason for inquiry</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <label for="floatingSelectGrid" class="text-muted">Interest:</label>
+                </div>
               </div>
             </div>
-          <div class="row g-0 container-fluid w-100">
-            <div class="col-sm w-100">
-              <div class="form-floating">
-                <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
-                  <option selected>Select reason for inquiry</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-                <label for="floatingSelectGrid" class="text-muted">Interest:</label>
-              </div>
-            </div>
-          </div>
+          </form>
         </div>
       </div>
+        <!-- FB TIMELINE FLEX BODY -->
       <div class="fb-timeline container-fluid col-xl-6 d-flex flex-wrap justify-content-center align-items-center">
           <div class="fb-page w-100" data-href="https://www.facebook.com/ATScomeinabox/" data-tabs="timeline" data-width="500" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/ATScomeinabox/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ATScomeinabox/">All Things Sweet Come In A Box</a></blockquote></div>
     </div>
