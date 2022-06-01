@@ -24,3 +24,9 @@
         width:100%;
     }
 }
+.checkbox-container {
+    border: 1px solid;
+    border-color:lightgrey;
+    background-color: #fff;
+    border-radius: 5px;
+}
