@@ -13,12 +13,11 @@
     overflow: hidden;
     min-width: 180px;
     border: 2px solid black;
-    width: 100%;
 }
 .fb-page{
-    min-width: 180px;
+    min-width: 100%;
     width: 100%;
-    max-width: 500px;
+    max-width: 504px;
 }
 @media (min-width:500px) {
     .fb-page {
@@ -27,7 +26,5 @@
         width:100%;
         max-width: 504px;
     }
-    .fb-timeline {
-        flex-basis: 50%;
-    }
+    
 }
