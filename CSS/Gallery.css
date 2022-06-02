@@ -24,6 +24,7 @@
     text-transform: uppercase;
     line-height: 1.2;
     transition: all 0.3s ease;
+    box-shadow: 2px 5px 10px black;
 }
 .filter-item.active {
     color: black;
