@@ -32,10 +32,15 @@ a{
   width: 100%;
 }
 @media (max-width: 991px){
+  .navbar-nav a {
+    width: 200px;
+  }
   .navbar-nav a:hover::after{
-    width: 80px;
+    width: 200px;
   }
 }
+
+
 
 .page-title{
   margin-top: 140px;

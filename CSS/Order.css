@@ -34,3 +34,7 @@
 .checkbox-header {
     font-size: medium;
 }
+.form-check {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
