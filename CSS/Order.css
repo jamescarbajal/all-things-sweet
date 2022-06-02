@@ -19,10 +19,25 @@
     min-height: 504px;
     max-width: 504px;
 }
-@media (min-width:500px) {
+@media (min-width:800px) {
     .fb-page {
         min-width: 320px;
         width:100%;
+    }
+}
+@media (min-width:1200px) {
+    .form-container form, .form-container .form-title {
+    width: 500px;
+    }
+}
+@media (min-width:1400px) {
+    .form-container form, .form-container .form-title {
+    min-width: 650px;
+    }
+}
+@media (min-width:1600px) {
+    .form-container form, .form-container .form-title {
+    min-width: 800px;
     }
 }
 .checkbox-container {
