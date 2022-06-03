@@ -111,17 +111,17 @@
           <h2 class="form-title container-fluid w-100 text-center">CATERING AND WEDDING CAKES REQUEST FORM</h2>
 
             <!-- Catering/Wedding Cake Request Form -->
-          <form class="container-fluid">
+          <form class="container-fluid p-0">
             <div class="row g-0 container-fluid w-100">
               <div class="col-sm w-100">
                 <div class="form-floating">
-                  <input required type="text" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                  <input required type="text" class="form-control" id="floatingInputGrid" placeholder="" value="" required autocomplete="on">
                   <label for="floatingInputGrid" class="text-muted">First Name</label>
                 </div>
               </div>
               <div class="col-sm w-100">
                 <div class="form-floating">
-                  <input type="text" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                  <input type="text" class="form-control" id="floatingInputGrid" placeholder="" value="" required autocomplete="on">
                   <label for="floatingInputGrid" class="text-muted">Last Name</label>
                 </div>
               </div>
@@ -135,7 +135,7 @@
               </div>
               <div class="w-100">
                 <div class="form-floating">
-                  <input required type="date" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                  <input required type="date" class="form-control" id="floatingInputGrid" placeholder="" value="" required min="today">
                   <label for="floatingInputGrid" class="text-muted">Pick-up date</label>
                 </div>
               </div>
@@ -222,15 +222,15 @@
                 <label for="additionalTextArea" class="text-muted">Additional information</label>
               </div>
             </div>
-            <div class="form-footer container-fluid row d-flex justify-content-between w-100 my-3">  
-              <div class="col-sm-10 email-checkbox my-3">
+            <div class="form-footer row d-flex my-2 px-3">  
+              <div class="col-sm-9 email-checkbox p-0 d-flex justify-content-start align-self-center my-2">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
                 <label class="form-check-label mx-2" for="flexCheckDefault">
-                  Please email me order updates and news!
+                  "Email me updates and offers!"
                 </label>
               </div>
-              <div class="col-sm-2 justify-content-end align-self-center">
-                <button type="submit" class="form-submit btn btn-primary">Submit</button>
+              <div class="form-submit col-sm-3 d-flex justify-content-end align-self-center p-0 my-2">
+                <button type="submit" class="btn btn-primary">Submit</button>
               </div>
             </div>
           </form>
