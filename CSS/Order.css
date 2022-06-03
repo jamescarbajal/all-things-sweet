@@ -8,28 +8,6 @@
     max-width: 700px;
 }
 
-@media (min-width:800px) {
-    .fb-page {
-        min-width: 320px;
-        width:100%;
-    }
-}
-@media (min-width:1200px) {
-    .form-container form, .form-container .form-title {
-    width: 500px;
-    }
-}
-@media (min-width:1400px) {
-    .form-container form, .form-container .form-title {
-    min-width: 650px;
-    }
-}
-@media (min-width:1600px) {
-    .form-container form, .form-container .form-title {
-    min-width: 800px;
-    }
-}
-
 /* Disable number field arrows on Chrome, Safari, Edge, Opera*/
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -57,7 +35,7 @@ input[type=number] {
 
 .fb-timeline{
     min-height: 55vh;
-    padding: 10px;
+    padding: 20px;
     overflow: hidden;
     min-width: 180px;
 }
@@ -66,4 +44,28 @@ input[type=number] {
     width: 100%;
     min-height: 504px;
     max-width: 504px;
+}
+@media (min-width:800px) {
+    .fb-page {
+        min-width: 320px;
+        width:100%;
+    }
+    .fb-timeline {
+        margin-top: 48px;
+    }
+}
+@media (min-width:1200px) {
+    .form-container form, .form-container .form-title {
+    width: 500px;
+    }
+}
+@media (min-width:1400px) {
+    .form-container form, .form-container .form-title {
+    min-width: 650px;
+    }
+}
+@media (min-width:1600px) {
+    .form-container form, .form-container .form-title {
+    min-width: 800px;
+    }
 }
