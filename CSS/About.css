@@ -11,23 +11,29 @@
     width: 100%;
 }
 .para-text {
+    width: 100%;
     min-height: 350px;
     background-color: antiquewhite;
-    font-size: larger;
+    font-size: x-large;
     text-align: center;
+    line-height: 2;
 }
-.para-hero {
+.para-text h2 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.para-image1 {
     background-image: url(/IMG/empty\ cannoli\ shells.jpg);
     margin-top: -30vh;
     height: 85vh;
     width: 100%;
 }
-.para-chocMousse {
-    background-image: url(/Img/aloha\ fruit\ sponge\ number\ cake.jpg);
+.para-image2 {
+    background-image: url(/Img/grandma\ fruit\ sponge\ quarter\ sheet.jpg);
 }
-.para-openLaptop {
+.para-image3 {
     background-image: url(/Img/five\ cakes\ in\ fridge.jpg);
 }
-.para-laptopHeadphones {
-    background-image: url(/Img/chinese\ new\ year\ cakes.jpg);
+.para-image4 {
+    background-image: url(/Img/cocoabombs\ gift\ box.jpg);
 }
