@@ -45,6 +45,7 @@ a{
 .page-title{
   margin-top: 140px;
   padding: 0;
+  z-index: 9;
 }
 
 .site-footer
