@@ -15,6 +15,12 @@ a{
     text-decoration: none;
     color: inherit;
 }
+nav {
+  background-color: antiquewhite;
+}
+.nav-link {
+  color: #000;
+}
 .navbar-nav a{
   font-weight: 700;
   font-size:24px;
@@ -50,7 +56,7 @@ a{
 
 .site-footer
 {
-  background: color #fff;
+  background-color: antiquewhite;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -118,7 +124,7 @@ a{
   margin-left:6px;
   margin-right:0;
   border-radius:100%;
-  background-color: #fff;
+  background-color: antiquewhite;
   border: solid 0.5px #737373;
 }
 .copyright-text
@@ -213,4 +219,11 @@ a{
     margin-right:0;
     font-weight:600
   }
+}
+.top-link {
+  color: lightgray;
+}
+.top-link:hover {
+  color: #000;
+  background-color:wheat;
 }
