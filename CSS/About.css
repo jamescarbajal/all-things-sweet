@@ -1,23 +1,26 @@
+.page-title {
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+}
 .parallax {
-    height: 90vh;
+    height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.para-codingScreen {
+.para-hero {
     background-image: url(/IMG/empty\ cannoli\ shells.jpg);
-    background-size: cover;
     margin-top: -40vh;
     height: 85vh;
     width: 100%;
 }
-.para-computerGirl {
-    background-image: url(/Img/girl-computer-red.jpg);
+.para-chocMousse {
+    background-image: url(/Img/choc\ mousse\ cheesecake\ bites\ strawberry\ shortcake\ in\ fridge.jpg);
 }
 .para-openLaptop {
-    background-image: url(/Img/half-open-laptop.jpg);
+    background-image: url(/Img/five\ cakes\ in\ fridge.jpg);
 }
 .para-laptopHeadphones {
-    background-image: url(/Img/laptop-and-headphones.jpg);
+    background-image: url(/Img/chinese\ new\ year\ cakes.jpg);
 }
