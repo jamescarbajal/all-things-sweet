@@ -3,15 +3,22 @@
     color: white;
 }
 .parallax {
-    height: 500px;
+    height: 350px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+}
+.para-text {
+    min-height: 350px;
+    background-color: antiquewhite;
+    font-size: larger;
+    text-align: center;
 }
 .para-hero {
     background-image: url(/IMG/empty\ cannoli\ shells.jpg);
-    margin-top: -40vh;
+    margin-top: -30vh;
     height: 85vh;
     width: 100%;
 }
