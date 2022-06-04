@@ -23,17 +23,17 @@
     margin-bottom: 20px;
 }
 .para-image1 {
-    background-image: url(empty\ cannoli\ shells.jpg);
-    margin-top: -30vh;
-    height: 85vh;
+    background-image: url(../IMG/empty\ cannoli\ shells.jpg);
+    margin-top: -50vh;
+    height: 100vh;
     width: 100%;
 }
 .para-image2 {
-    background-image: url(grandma\ fruit\ sponge\ quarter\ sheet.jpg);
+    background-image: url(../IMG/grandma\ fruit\ sponge\ quarter\ sheet.jpg);
 }
 .para-image3 {
-    background-image: url(five\ cakes\ in\ fridge.jpg);
+    background-image: url(../IMG/five\ cakes\ in\ fridge.jpg);
 }
 .para-image4 {
-    background-image: url(cocoabombs\ gift\ box.jpg);
+    background-image: url(../IMG/cocoabombs\ gift\ box.jpg);
 }
