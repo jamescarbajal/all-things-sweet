@@ -1,6 +1,8 @@
 .page-title {
     background-color: rgba(0,0,0,0.4);
     color: white;
+    width: 40%;
+    max-width: 400px;
 }
 .parallax {
     height: 350px;
@@ -25,7 +27,7 @@
 .para-image1 {
     background-image: url(../IMG/empty\ cannoli\ shells.jpg);
     margin-top: -50vh;
-    height: 100vh;
+    height: 900px;
     width: 100%;
 }
 .para-image2 {
