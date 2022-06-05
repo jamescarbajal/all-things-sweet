@@ -10,13 +10,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     width: 100%;
 }
 .para-text {
     width: 100%;
     min-height: 350px;
-    background-color: antiquewhite;
+    background-color:#fff;
+
     font-size: x-large;
     text-align: center;
     line-height: 2;
@@ -28,7 +28,7 @@
 .para-image1 {
     background-image: url(../IMG/empty\ cannoli\ shells.jpg);
     margin-top: -50vh;
-    height: 900px;
+    height: 100vh;
     width: 100%;
 }
 .para-image2 {
