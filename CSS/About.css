@@ -12,6 +12,11 @@
     background-size: cover;
     width: 100%;
 }
+@media (max-width:600px) {
+    .parallax{
+        background-size: auto 100% ;
+    }
+}
 .para-text {
     width: 100%;
     min-height: 350px;
