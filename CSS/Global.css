@@ -20,7 +20,7 @@ nav {
 }
 .nav-link {
   color: #000;
-  text-shadow: 2px 2px 12px;
+  text-shadow: 2px 2px 5px;
 }
 .navbar-nav a{
   font-weight: 700;

@@ -1,10 +1,28 @@
 .hero-section {
-    background-image: url(https://via.placeholder.com/1800x1200);
+    background: url(/IMG/floral\ cupcakes\ birds\ eye.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
     height: 550px;
+    width: 100%;
+    margin-top: 107px;
+}
+.hero-text {
+    color: #fff;
+    height: 100%;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.45);
+} 
+.sub-header {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.order-button {
+    margin-top: 75px;
+}
+.blue-button {
+    background-color: rgba(51, 249, 249, 0.45);
 }
 .bottom-cards {
     overflow: hidden;
