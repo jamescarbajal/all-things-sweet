@@ -1,6 +1,12 @@
 .contact-container {
     min-height: 50vh;
+    background-color: rgba(236, 246, 255, 0.428);
+}
+.hours-container article {
+    width: 90%;
+    height: 90%;
+    background-color: bisque;
 }
 .gmap-container {
-    max-height: 300px;
+    height: 300px;
 }

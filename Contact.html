@@ -94,8 +94,136 @@
 
     <section class="contact-container container-fluid row d-flex flex-wrap justify-content-evenly p-3">
       <div class="container-fluid row d-flex flex-wrap justify-content-evenly">
-        <div class="col-sm-6"></div>
-      </div>
+        <div class="col-md-6 d-flex flex-wrap p-3 justify-content-center">
+          <article>
+            <h1 class="display-6">HOURS</h1>
+          </article>
+        </div>
+        <div class="generalform-container col-md-6 d-flex flex-wrap">
+          <form class="container-fluid p-5">
+            <div class="row g-0 container-fluid w-100">
+              <div class="col-sm w-100">
+                <div class="form-floating">
+                  <input required type="text" class="form-control" id="floatingInputGrid" placeholder="" value="" required autocomplete="on">
+                  <label for="floatingInputGrid" class="text-muted"> * First Name</label>
+                </div>
+              </div>
+              <div class="col-sm w-100">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="floatingInputGrid" placeholder="" value="" required autocomplete="on">
+                  <label for="floatingInputGrid" class="text-muted">* Last Name</label>
+                </div>
+              </div>
+            </div>
+            <div class="row g-0 container-fluid w-100">
+              <div class="w-100">
+                <div class="form-floating">
+                  <input type="tel" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                  <label for="floatingInputGrid" class="text-muted">Phone number</label>
+                </div>
+              </div>
+              <div class="w-100">
+                <div class="form-floating">
+                  <input required type="date" class="form-control" id="floatingInputGrid" placeholder="" value="" required>
+                  <label for="floatingInputGrid" class="text-muted">* Pick-up date</label>
+                </div>
+              </div>
+            </div>
+            <div class="row g-0 container-fluid w-100">
+              <div class=" w-100">
+                <div class="form-floating">
+                  <input required type="email" class="form-control" id="floatingInputGrid" placeholder="" value="" required autocomplete="on">
+                  <label for="floatingInputGrid" class="text-muted">* Email address</label>
+                </div>
+              </div>
+              <div class="form-floating">
+                <input type="number" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                <label for="floatingInputGrid" class="text-muted">Expected number of guests</label>
+              </div>
+              <div class="checkbox-container col-sm w-100 p-3">
+                <h2 class="checkbox-header text-muted text-center">Event Type</h2>
+                <hr>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Wedding
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Baby Shower
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                  <label class="form-check-label" for="flexCheckDefault3">
+                    Bachelor(ette)
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+                  <label class="form-check-label" for="flexRadioDefault4">
+                    Company Event
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
+                  <input type="text" class="form-control form-floating" for="flexRadioDefault5" aria-label="Text input for other event type" placeholder="Other">
+                </div>
+              </div>
+              <div class="checkbox-container col-sm w-100 p-3">
+                <h2 class="checkbox-header text-muted text-center">Products Requested</h2>
+                <hr>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Wedding Cake
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Non-wedding Cake
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Cupcakes
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Misc. Desserts
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <input type="text" class="form-control form-floating" aria-label="Text input for other event type" placeholder="Other">
+                </div>
+              </div>
+            </div>
+            <div class="w-100">
+              <div class="form-floating">
+                <textarea class="form-control" id="additionalTextArea" placeholder="Additional information" style="min-height: 100px;"></textarea>
+                <label for="additionalTextArea" class="text-muted">Additional information</label>
+              </div>
+            </div>
+            <div class="form-footer row d-flex my-2 px-3">  
+              <div class="col-sm-9 email-checkbox p-0 d-flex justify-content-start align-self-center my-2">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                <label class="form-check-label mx-2" for="flexCheckDefault">
+                  "Email me updates and offers!"
+                </label>
+              </div>
+              <div class="form-submit col-sm-3 d-flex justify-content-end align-self-center p-0 my-2">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
       <div class="gmap-container container-fluid">
         <div class="w-100 h-100"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3195.6300512658704!2d-119.73841058437573!3d36.77944147995283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945c2e0f74a8b7%3A0xb622fc2ca677e1f8!2sE%20Shields%20Ave%20%26%20N%20Chestnut%20Ave%2C%20Fresno%2C%20CA%2093703!5e0!3m2!1sen!2sus!4v1650907971258!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="#" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
       </div>
