@@ -1,3 +1,6 @@
+* {
+    /* border: solid 2px black; */
+}
 .contact-container {
     min-height: 50vh;
     background-color: rgba(236, 246, 255, 0.428);
@@ -7,6 +10,16 @@
     height: 90%;
     border-radius: 7px;
     background-color: rgb(244, 236, 226);
+}
+.contact-info article p {
+    font-size: 20px;
+}
+.hours-times {
+    min-width: 200px;
+    max-width: fit-content;
+}
+.form-check {
+    margin: 5px;
 }
 .gmap-container {
     height: 300px;
