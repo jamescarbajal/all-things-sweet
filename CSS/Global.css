@@ -23,7 +23,7 @@ nav {
 }
 .nav-link {
   color: #000;
-  text-shadow: 5px 5px 6px ;
+  /* text-shadow: 5px 5px 6px ; */
 }
 .navbar-nav a{
   font-weight: 700;
