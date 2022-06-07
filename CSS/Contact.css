@@ -7,19 +7,21 @@
 }
 .contact-info article {
     width: 90%;
-    min-height: 90%;
+    min-height: fit-content;
     border-radius: 7px;
     background-color: rgb(244, 236, 226);
+}
+.hours-n-contact {
+    max-height: fit-content;
+}
+@media (min-width:) {
+
 }
 .contact-links {
     font-size: 20px;
     min-width: 200px;
     max-width: fit-content;
-}
-@media (max-width:1400px){
-    .contact-col2 {
-        margin-bottom: 20px;
-    }
+    max-height: fit-content;
 }
 .contact-info article p {
     font-size: 20px;
