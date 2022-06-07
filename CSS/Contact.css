@@ -2,7 +2,7 @@
     /* border: solid 2px black; */
 }
 .contact-container {
-    min-height: 50vh;
+    min-height: fit-content;
     background-color: rgba(236, 246, 255, 0.428);
 }
 .contact-info article {
@@ -33,6 +33,16 @@
 }
 .contact-info article p {
     font-size: 20px;
+}
+.contact-separator {
+    width: 75%;
+    max-height: fit-content;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.contact-text {
+    max-height: fit-content;
+    margin-top: 0;
 }
 @media (max-width:767px) {
     .contact-text {
