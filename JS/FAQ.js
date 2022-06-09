@@ -1,0 +1,1 @@
+inspoClick = document.getElement
