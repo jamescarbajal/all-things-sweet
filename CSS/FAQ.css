@@ -1,0 +1,13 @@
+.faq-section {
+    max-width: 1000px;
+    background-color:rgb(245, 255, 242);
+}
+.accordion-item h2 button {
+    color: navy;
+    font-size: large;
+    font-weight: 700;
+    font-family: 'Oxygen', sans-serif ;
+}
+.accordion-body {
+    font-size: 18px;
+}
