@@ -1,3 +1,7 @@
+.logo {
+    max-width: 90px;
+    max-height: 75px;
+}
 .hero-section {
     background: url(../IMG/floral\ cupcakes\ birds\ eye.jpg);
     background-size: cover;
