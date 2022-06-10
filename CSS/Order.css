@@ -3,8 +3,12 @@
     padding: 0;
     /* border: 2px solid black; */
 }
-section article p {
+section article {
     font-size: 20px;
+}
+.instructions-container {
+    
+    max-width: 1200px;
 }
 .form-container {
     min-width: 400px;
