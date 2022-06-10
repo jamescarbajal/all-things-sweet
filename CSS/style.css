@@ -9,28 +9,26 @@
     margin-top: 107px;
 }
 .hero-text {
-    padding: 400px;
+    padding: 30px;
     color: #fff;
     height: fit-content;
     width: fit-content;
-    background-color: rgba(0, 0, 0, 0.45);
+    background-color: rgba(0, 0, 0, 0.5);
 } 
 .hero-text h1 {
-    font-family: 'Cormorant Garamond', serif;
     font-style: italic;
     font-size: 80px;
+    font-family: 'Cinzel Decorative', cursive;
 }
 .hero-text h2 {
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Poiret One', serif;
     font-style: italic;
     font-size: 25px;
 }
 .sub-header {
-    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
     font-size: 25px;
-}
-.order-button {
-    margin-top: 75px;
+    font-family:'Poiret One', serif;
 }
 .blue-button {
     background-color: rgba(51, 249, 249, 0.45);
