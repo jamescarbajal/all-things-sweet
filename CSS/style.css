@@ -55,3 +55,9 @@ ul p {
     font-size: x-large;
     font-family: 'Cormorant Garamond', serif;
 }
+.catering-image-container {
+
+}
+.catering-image-container img {
+    max-height: 500px;
+}
