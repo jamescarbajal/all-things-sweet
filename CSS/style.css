@@ -1,3 +1,6 @@
+* {
+    border: 2px solid black;
+}
 .logo {
     max-width: 90px;
     max-height: 90px;
@@ -38,7 +41,18 @@
     background-color: rgba(51, 249, 249, 0.45);
 }
 .bottom-cards {
-    overflow: hidden;
     padding-left: 5px;
     padding-right: 5px;
+    box-sizing: content-box;
+}
+li {
+    list-style: none;
+}
+.fa-check {
+    color: green;
+}
+ul p {
+    font-weight: 700;
+    font-size: x-large;
+    font-family: 'Cormorant Garamond', serif;
 }
