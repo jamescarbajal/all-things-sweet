@@ -40,27 +40,6 @@ input[type=number] {
     margin-bottom: 15px;
 }
 
-.fb-timeline{
-    min-height: 55vh;
-    padding: 20px;
-    overflow: hidden;
-    min-width: 180px;
-}
-.fb-page{
-    min-width: 320px;
-    width: 100%;
-    min-height: 504px;
-    max-width: 504px;
-}
-@media (min-width:800px) {
-    .fb-page {
-        min-width: 320px;
-        width:100%;
-    }
-    .fb-timeline {
-        margin-top: 48px;
-    }
-}
 @media (min-width:1200px) {
     .form-container form, .form-container .form-title {
     width: 500px;

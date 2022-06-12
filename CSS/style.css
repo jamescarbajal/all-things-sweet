@@ -1,5 +1,5 @@
 * {
-    /* border: 2px solid black; */
+    border: 2px solid black;
 }
 .logo {
     max-width: 90px;
@@ -46,6 +46,8 @@
 }
 li {
     list-style: none;
+    max-width: fit-content;
+    max-height: fit-content;
 }
 .fa-check {
     color: green;
@@ -54,10 +56,27 @@ ul p {
     font-weight: 700;
     font-size: x-large;
     font-family: 'Cormorant Garamond', serif;
+    max-width: fit-content;
 }
-.catering-image-container {
 
+.fb-timeline{
+    min-height: 55vh;
+    padding: 20px;
+    overflow: hidden;
+    min-width: 180px;
 }
-.catering-image-container img {
-    max-height: 500px;
+.fb-page{
+    min-width: 320px;
+    width: 100%;
+    min-height: 504px;
+    max-width: 504px;
+}
+@media (min-width:800px) {
+    .fb-page {
+        min-width: 320px;
+        width:100%;
+    }
+    .fb-timeline {
+        margin-top: 48px;
+    }
 }
