@@ -1,5 +1,5 @@
 * {
-    /* border: 2px solid black; */
+    border: 2px solid black;
 }
 .logo {
     max-width: 90px;
@@ -48,7 +48,7 @@ li {
 .fa-check {
     color: green;
 }
-ul {min-width: 300px;
+.bottom-cards ul {min-width: 300px;
     max-width: fit-content;
 }
 ul p {
