@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* border: 2px solid black; */
 }
 @media (min-width: 1400px){
     .menu-img img{
@@ -9,4 +10,7 @@
 }
 .tandc {
     font-size: 20px;
+}
+.menu-container {
+    background-color: rgba(255, 186, 90, 0.157);
 }
