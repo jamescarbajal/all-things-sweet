@@ -1,3 +1,6 @@
+* {
+    /* border: 2px solid black; */
+}
 .logo {
     max-width: 90px;
     max-height: 90px;
@@ -39,11 +42,14 @@
 }
 li {
     list-style: none;
-    max-width: fit-content;
+    width: 100%;
     max-height: fit-content;
 }
 .fa-check {
     color: green;
+}
+ul {min-width: 300px;
+    max-width: fit-content;
 }
 ul p {
     font-weight: 700;
