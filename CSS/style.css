@@ -1,5 +1,5 @@
 * {
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .logo {
     max-width: 90px;
@@ -40,11 +40,6 @@
 .blue-button {
     background-color: rgba(51, 249, 249, 0.45);
 }
-.bottom-cards {
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 100%;
-}
 li {
     list-style: none;
     max-width: fit-content;
@@ -59,10 +54,13 @@ ul p {
     font-family: 'Cormorant Garamond', serif;
     max-width: fit-content;
 }
-
+.bottom-cards-label h1, .bottom-cards-label h2{
+    max-width: 590px;
+}
 .fb-timeline{
     min-height: 55vh;
     padding: 20px;
+    padding-top: 0;
     overflow: hidden;
     min-width: 180px;
 }
