@@ -48,7 +48,8 @@ li {
 .fa-check {
     color: green;
 }
-.bottom-cards ul {min-width: 300px;
+.bottom-cards ul, .bottom-cards li {
+    min-width: 350px;
     max-width: fit-content;
 }
 ul p {
