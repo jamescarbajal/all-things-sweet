@@ -102,6 +102,15 @@
     padding: 20px;
     text-align: center;
   }
+  .overlay p {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 90%;
+      height: fit-content;
+      line-height: 1.75;
+  }
   
   /* When you mouse over the container, fade in the overlay title */
   .gallery-item-inner:hover .overlay {
