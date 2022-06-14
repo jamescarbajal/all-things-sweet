@@ -18,7 +18,7 @@
         background-size: auto 100% ;
     }
 }
-.para-text {
+.para-text, .para-text small {
     width: 100%;
     min-height: 350px;
     background-color:#fff;
