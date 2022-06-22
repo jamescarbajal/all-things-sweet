@@ -18,7 +18,12 @@ section article {
     min-width: 400px;
     max-width: 700px;
 }
-
+.form-disabler {
+    position: relative;
+    width: 100%;
+    background-color: rgba(27, 136, 0, 0.044);
+    z-index: 10;
+}
 /* Disable number field arrows on Chrome, Safari, Edge, Opera*/
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
