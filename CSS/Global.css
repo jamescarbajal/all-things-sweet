@@ -10,6 +10,8 @@ body{
 }
 .logo{
     margin-left: 2px;
+    max-width: 90px;
+    max-height: 90px;
 }
 a{
     text-decoration: none;
