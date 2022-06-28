@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./CSS/Global.css">
     <link rel="stylesheet" href="./CSS/Contact.css">
     <script defer src="./JS/script.js"></script>
+    <script defer src="./JS/Contact.js"></script>
 
     <title>Contact</title>
   </head>
@@ -132,63 +133,66 @@
             <p class="px-3 pt-4" style="font-size: 20px;">For catering quotes and requests, please see our <a href="./Order.html" target="_blank"><b>Order</b></a> page.</p>
             <p class="px-3 pt-2" style="font-size: 20px;">For all other questions, please feel free to reach out to us with this general-purpose contact form.</p>
           </div>
-          <h2 class="display-6 text-center mx-auto mt-3">GENERAL QUESTIONS</h2>
-          <form class="container-fluid pt-4">
+          <h2 class="display-6 text-center mx-auto mt-3 w-100">GENERAL QUESTIONS</h2>
+
+          <p id="formStatus" class="text-center mx-auto fs-6" style="color: red;"></p>
+          <!-- General Contact Form -->
+          <form id="generalForm" class="container-fluid pt-4">
             <div class="row g-0 container-fluid w-100">
               <div class="col-sm w-100">
                 <div class="form-floating">
-                  <input required type="text" class="form-control" id="floatingInputGrid" placeholder="" value="" required autocomplete="on">
-                  <label for="floatingInputGrid" class="text-muted"> * First Name</label>
+                  <input name="firstName" required type="text" class="form-control" id="firstName" placeholder="" value="" autocomplete="on" required>
+                  <label for="firstName" class="text-muted"> * First Name</label>
                 </div>
               </div>
               <div class="col-sm w-100">
                 <div class="form-floating">
-                  <input type="text" class="form-control" id="floatingInputGrid" placeholder="" value="" required autocomplete="on">
-                  <label for="floatingInputGrid" class="text-muted">* Last Name</label>
+                  <input name="lastName" type="text" class="form-control" id="lastName" placeholder="" value="" required autocomplete="on">
+                  <label for="lastName" class="text-muted">* Last Name</label>
                 </div>
               </div>
             </div>
             <div class="row g-0 container-fluid w-100">
               <div class="w-100">
                 <div class="form-floating">
-                  <input type="tel" class="form-control" id="floatingInputGrid" placeholder="" value="">
-                  <label for="floatingInputGrid" class="text-muted">Phone number</label>
+                  <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="">
+                  <label for="phone" class="text-muted">Phone number</label>
                 </div>
               </div>
             </div>
             <div class="row g-0 container-fluid w-100">
               <div class=" w-100">
                 <div class="form-floating">
-                  <input required type="email" class="form-control" id="floatingInputGrid" placeholder="" value="" required autocomplete="on">
-                  <label for="floatingInputGrid" class="text-muted">* Email address</label>
+                  <input name="email" type="email" class="form-control" id="email" placeholder="" value="" required autocomplete="on">
+                  <label for="email" class="text-muted">* Email address</label>
                 </div>
               </div>
             <div class="w-100 form-floating">
-              <select class="form-select" id="floatingSelect" aria-label="Floating label select">
-                <option selected>General</option>
-                <option value="1">Products/Services</option>
-                <option value="2">Legal/Terms and Conditions</option>
-                <option value="3">Grievance/Commendation</option>
-                <option value="4">Web/Technical</option>
-                <option value="5">Other</option>
+              <select name="purpose" class="form-select" id="purpose" aria-label="Floating label select">
+                <option value="General" selected>General</option>
+                <option value="Products/Services">Products/Services</option>
+                <option value="Legal/Terms and Conditions">Legal/Terms and Conditions</option>
+                <option value="Grievance/Commendation">Grievance/Commendation</option>
+                <option value="Web/Technical">Web/Technical</option>
+                <option value="Other">Other</option>
               </select>
-              <label for="floatingSelect">Reason for contacting</label>
+              <label for="purpose">Reason for contacting</label>
             </div>
             <div class="w-100">
               <div class="form-floating">
-                <textarea class="form-control" id="additionalTextArea" placeholder="Additional information" style="min-height: 100px;"></textarea>
-                <label for="additionalTextArea" class="text-muted">Message</label>
+                <textarea name="message" class="form-control" id="message" placeholder="Additional information" style="min-height: 100px;"></textarea>
+                <label for="message" class="text-muted">Message</label>
               </div>
             </div>
             <div class="form-footer row d-flex my-2 px-3">  
               <div class="col-sm-9 email-checkbox p-0 d-flex justify-content-start align-self-center my-2">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
-                <label class="form-check-label mx-2" for="flexCheckDefault">
+                <input name="checkbox" type="checkbox" value="Emails for updates and offers are ok" id="checkbox" checked>
+                <label class="form-check-label mx-2" for="checkbox">
                   "Email me updates and offers!"
                 </label>
               </div>
               <div class="form-submit col-sm-3 d-flex justify-content-end align-self-center p-0 my-2">
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button id="submit" type="submit" value="submit" class="btn btn-primary">Submit</button>
               </div>
             </div>
           </form>
