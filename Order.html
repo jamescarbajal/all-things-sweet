@@ -19,8 +19,7 @@
     <!-- Stylesheets and Scripts -->
     <link rel="stylesheet" href="./CSS/Global.css">
     <link rel="stylesheet" href="./CSS/Order.css">
-    <script defer src="./JS/Global.js"></script>
-    <script defer src="./JS/script.js"></script>
+    <script defer src="./JS/Order.js"></script>
     
 
     <title>Order</title>
@@ -118,17 +117,20 @@
         <div class="form-container align-self-start">
           <h2 class="form-title container-fluid text-center">CATERING REQUEST FORM</h2>
           <a name="cateringRequestForm"></a>
-          <form class="container-fluid p-3">
+
+          <p style="color:red" id="formStatus" class="text-center mx-auto fs-6"></p>
+
+          <form id="cateringForm" class="container-fluid p-3">
             <div class="row g-0 container-fluid w-100">
               <div class="col-sm w-100">
                 <div class="form-floating">
-                  <input required type="text" class="form-control" id="floatingInputGrid" placeholder="" value="" required autocomplete="on">
+                  <input name="First Name" required type="text" class="form-control" id="firstName" placeholder="" value="" required autocomplete="on">
                   <label for="floatingInputGrid" class="text-muted"> * First Name</label>
                 </div>
               </div>
               <div class="col-sm w-100">
                 <div class="form-floating">
-                  <input type="text" class="form-control" id="floatingInputGrid" placeholder="" value="" required autocomplete="on">
+                  <input name="Last Name" type="text" class="form-control" id="lastName" placeholder="" value="" required autocomplete="on">
                   <label for="floatingInputGrid" class="text-muted">* Last Name</label>
                 </div>
               </div>
@@ -136,13 +138,13 @@
             <div class="row g-0 container-fluid w-100">
               <div class="w-100">
                 <div class="form-floating">
-                  <input type="tel" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                  <input name="Phone" type="tel" class="form-control" id="phone" placeholder="" value="">
                   <label for="floatingInputGrid" class="text-muted">Phone number</label>
                 </div>
               </div>
               <div class="w-100">
                 <div class="form-floating">
-                  <input required type="date" class="form-control" id="floatingInputGrid" placeholder="" value="" required>
+                  <input name="Pick Up Date" required type="date" class="form-control" id="pickUpDate" placeholder="" value="" required>
                   <label for="floatingInputGrid" class="text-muted">* Pick-up date</label>
                 </div>
               </div>
@@ -150,94 +152,94 @@
             <div class="row g-0 container-fluid w-100">
               <div class=" w-100">
                 <div class="form-floating">
-                  <input required type="email" class="form-control" id="floatingInputGrid" placeholder="" value="" required autocomplete="on">
+                  <input name="Email" required type="email" class="form-control" id="email" placeholder="" value="" required autocomplete="on">
                   <label for="floatingInputGrid" class="text-muted">* Email</label>
                 </div>
               </div>
               <div class="w-100">
                 <div class="form-floating">
-                  <input type="text" class="form-control" id="floatingInputGrid" placeholder="" value="" autocomplete="on">
+                  <input name="Event Address" type="text" class="form-control" id="eventAddress" placeholder="" value="" autocomplete="on">
                   <label for="floatingInputGrid" class="text-muted">Event Address</label>
                 </div>
               </div>
               <div class="form-floating">
-                <input type="number" class="form-control" id="floatingInputGrid" placeholder="" value="" required>
+                <input name="Number of Guests" type="number" class="form-control" id="numberOfGuests" placeholder="" value="" required>
                 <label for="floatingInputGrid" class="text-muted">* Expected Number of Guests</label>
               </div>
               <div class="checkbox-container col-sm w-100 p-3">
                 <h2 class="checkbox-header text-muted text-center">Event Type</h2>
                 <hr>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <input class="form-check-input" type="radio" name="Wedding" id="wedding" value="selected">
                   <label class="form-check-label" for="flexRadioDefault1">
                     Wedding
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <input class="form-check-input" type="radio" name="Baby Shower/Gender Reveal" id="babyShowerGenderReveal" value="selected">
                   <label class="form-check-label" for="flexRadioDefault2">
                     Baby Shower/Gender Reveal
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                  <input class="form-check-input" type="radio" name="Bachelor(ette)" id="bachelor/ette" value="selected">
                   <label class="form-check-label" for="flexCheckDefault3">
                     Bachelor(ette)
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+                  <input class="form-check-input" type="radio" name="Company Event" id="companyEvent" value="selected">
                   <label class="form-check-label" for="flexRadioDefault4">
                     Company Event
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
-                  <input type="text" class="form-control form-floating" for="flexRadioDefault5" aria-label="Text input for other event type" placeholder="Other">
+                  <input name="Other Event" class="form-check-input" type="radio" name="Other" id="otherEvent" value="selected">
+                  <input name="Other Event Info" type="text" class="form-control form-floating" id="otherEventInfo"  for="flexRadioDefault5" aria-label="Text input for other event type" placeholder="Other">
                 </div>
               </div>
               <div class="checkbox-container col-sm w-100 p-3">
                 <h2 class="checkbox-header text-muted text-center">Products Requested</h2>
                 <hr>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <input name="Package 1" class="form-check-input" type="checkbox" value="selected" id="package1">
                   <label class="form-check-label" for="flexCheckDefault">
                     $$$ Package 1
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <input name="Package 2" class="form-check-input" type="checkbox" value="selected" id="package2">
                   <label class="form-check-label" for="flexCheckDefault">
                     $$$ Package 2
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <input name="Package 3" class="form-check-input" type="checkbox" value="selected" id="package3">
                   <label class="form-check-label" for="flexCheckDefault">
                     $$$ Package 3
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <input name="Package 4" class="form-check-input" type="checkbox" value="selected" id="package4">
                   <label class="form-check-label" for="flexCheckDefault">
                     $$$ Package 4
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <input type="text" class="form-control form-floating" aria-label="Text input for other event type" placeholder="Other">
+                  <input name="Other Package" class="form-check-input" type="checkbox" value="selected" id="otherPackage">
+                  <input name="Other Package Info" type="text" id="otherPackageInfo" class="form-control form-floating" aria-label="Text input for other event type" placeholder="Other">
                 </div>
               </div>
             </div>
             <div class="w-100">
               <div class="form-floating">
-                <textarea class="form-control" id="additionalTextArea" placeholder="Additional information" style="min-height: 100px;"></textarea>
+                <textarea name="Additional Info" class="form-control" id="additionalInfo" placeholder="Additional information" style="min-height: 100px;"></textarea>
                 <label for="additionalTextArea" class="text-muted">Additional information</label>
               </div>
             </div>
             <div class="form-footer row d-flex my-2 px-3">  
               <div class="col-sm-9 email-checkbox p-0 d-flex justify-content-start align-self-center my-2">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                <input name="Updates and offers" class="form-check-input" type="checkbox" value="selected" id="updatesAndOffers" checked>
                 <label class="form-check-label mx-2" for="flexCheckDefault">
                   "Email me updates and offers!"
                 </label>
