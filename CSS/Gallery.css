@@ -89,14 +89,15 @@
     /* The overlay effect - lays on top of the container and over the image */
 .gallery-item-inner .overlay {
     position: absolute;
-    height: 100%;
-    width: 100%;
+    overflow: hidden;
+    height: 5%;
+    width: 95%;
     z-index: 9;
     background: rgba(0, 0, 0);
     background: rgba(0, 0, 0, 0.5); /* Black see-through */
     color: #f1f1f1;
     transition: .5s ease;
-    opacity:0;
+    opacity:0.3;
     color: white;
     font-size: 20px;
     padding: 20px;
@@ -115,5 +116,7 @@
   /* When you mouse over the container, fade in the overlay title */
   .gallery-item-inner:hover .overlay {
     opacity: 1;
+    height: 100%;
+    width: 100%;
     transition: 350ms ease-in-out;
   }
