@@ -15,15 +15,14 @@
 }
 .carousel {
     position: relative;
-    z-index: -100;
 }
 .icon-container {
     position: absolute;
-    width: 115vw;
+    width: 110vw;
     top: 275px;
     left: 50%;
     transform: translate(-50%, 0);
-    z-index: 11;
+    z-index: 20;
 }
 .carousel-indicators {
     position: absolute;
