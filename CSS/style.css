@@ -11,23 +11,18 @@
     min-width: 100vw;
     max-height: fit-content;
     transform: translate(0, -20%);
+    z-index: -1;
+}
+.carousel {
+    position: relative;
+    z-index: -100;
 }
 .icon-container {
     position: absolute;
-    z-index: 11;
-}
-.carousel-control-prev-icon {
-    position: fixed;
-    display: block;
-    top: 350px;
-    left: 10px;
-    z-index: 11;
-}
-.carousel-control-next-icon {
-    position: fixed;
-    display: block;
-    top: 350px;
-    right: 10px;
+    width: 115vw;
+    top: 275px;
+    left: 50%;
+    transform: translate(-50%, 0);
     z-index: 11;
 }
 .carousel-indicators {
