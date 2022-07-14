@@ -9,32 +9,41 @@
 }
 .hero-section img {
     min-width: 100vw;
+    max-height: fit-content;
     transform: translate(0, -20%);
+}
+.icon-container {
+    position: absolute;
+    z-index: 11;
 }
 .carousel-control-prev-icon {
     position: fixed;
     display: block;
     top: 350px;
     left: 10px;
+    z-index: 11;
 }
 .carousel-control-next-icon {
     position: fixed;
     display: block;
     top: 350px;
     right: 10px;
+    z-index: 11;
 }
 .carousel-indicators {
     position: absolute;
     top: 530px;
+    z-index: 11;
 }
 .hero-text {
     position: absolute;
     padding: 30px;
     color: #fff;
     height: fit-content;
-    width: fit-content;
+    max-width: fit-content;
     background-color: rgba(0, 0, 0, 0.5);
     transform: translate(0, -5px);
+    z-index: 9;
 } 
 .hero-text h1 {
     font-style: italic;
