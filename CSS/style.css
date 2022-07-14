@@ -7,14 +7,8 @@
     width: 100%;
     margin-top: 107px;
 }
-.carousel-item {
-    position: relative;
-    display: none;
-}
 .hero-section img {
-    object-fit: cover;
     min-width: 100vw;
-    overflow: hidden;
     transform: translate(0, -20%);
 }
 .carousel-control-prev-icon {
