@@ -2,21 +2,45 @@
     /* border: 2px solid black; */
 }
 .hero-section {
-    background: url(../IMG/floral\ cupcakes\ birds\ eye.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     overflow: hidden;
     height: 550px;
     width: 100%;
     margin-top: 107px;
 }
+.carousel-item {
+    position: relative;
+    display: none;
+}
+.hero-section img {
+    object-fit: cover;
+    min-width: 100vw;
+    overflow: hidden;
+    transform: translate(0, -20%);
+}
+.carousel-control-prev-icon {
+    position: fixed;
+    display: block;
+    top: 350px;
+    left: 10px;
+}
+.carousel-control-next-icon {
+    position: fixed;
+    display: block;
+    top: 350px;
+    right: 10px;
+}
+.carousel-indicators {
+    position: absolute;
+    top: 530px;
+}
 .hero-text {
+    position: absolute;
     padding: 30px;
     color: #fff;
     height: fit-content;
     width: fit-content;
     background-color: rgba(0, 0, 0, 0.5);
+    transform: translate(0, -5px);
 } 
 .hero-text h1 {
     font-style: italic;
